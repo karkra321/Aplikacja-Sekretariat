@@ -1,0 +1,163 @@
+*{
+	font-family:Franklin Gothic Demi;
+	font-size:15px;
+	color:#333333;
+}
+body{
+	background-color:#eef0f5;
+}
+.scratch{
+	background:#6b93c4;
+	width:430px;
+	height:3px;
+	animation-name:scratchdiv;
+	animation-duration:1s;
+	position:relative;
+	margin:0px auto;
+	margin-bottom:5px;
+}
+.caly{
+	text-align:center;
+	margin:0px auto 0px auto;
+	animation-name: startblur;
+	animation-duration:0.5s;
+}
+.lacz{
+	text-align:center;
+	height:100px;
+	margin-bottom:60px;	
+}
+h1{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#sort{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#allucz{
+	margin-bottom:10px;
+}
+#wychowawca{
+	font-size:24px;
+}
+#wychowawcadruk{
+	font-size:24px;
+
+}
+#greentest{
+	margin-top:10px;
+	width:500px;
+	display: inline-block;
+}
+input{
+	border-radius:6px;
+	transition:all 0.3s ease 0s;
+	background:#ffffff;
+}
+.input_w:hover{
+	border-radius:6px;
+	transition:all 0.7s ease 0s;
+	background:#e0e0e0;
+}
+.input_w:focus{
+	border-radius:6px;
+	transition:all 0.7s ease 0s;
+	background:#cdcdcd;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+	margin-top:150px;
+}
+th, td {
+    padding: 4px;
+	letter-spacing:1px;
+}
+tr:nth-child(even){
+	background-color: #ffffff;
+}
+
+th {
+    background-color: #506f96;
+    color: white;
+}
+.blad{
+	color:red;
+	font-weight:bold;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+#usunjednego:hover{
+	text-decoration:none;
+	color:white;
+	cursor: pointer;
+}
+.dodaj {
+	transition:all 0.4s ease 0s;
+	height:30px;
+	width:150px;
+	background-color:#506f96;
+	margin-top:10px;
+    cursor: pointer;
+	color:white;
+	border-radius:5px;
+	padding-top:10px;
+	letter-spacing:2px;
+	animation-name:comein;
+	animation-duration:0.5s;
+	display:inline-block;
+}
+.dodaj:hover{
+	background:white;
+	color:#333333;
+	box-shadow:3px 3px 3px black; 
+	transition: 0.3s;
+}
+#button{
+	transition:all 0.4s ease 0s;
+	height:30px;
+	width:80px;
+	background-color:#506f96;
+    cursor: pointer;
+	color:white;
+	border-radius:6px;
+	letter-spacing:2px;
+	animation-name:comein;
+	animation-duration:0.5s;
+	border:none;
+}
+#button:hover{
+	background:white;
+	color:#333333;
+	box-shadow:3px 3px 3px black; 
+	transition: 0.3s;
+}
+select {
+	border-radius:6px;
+	background-color:#eef0f5 ;
+	height:30px;
+	margin-right:4px;
+}
+#prf-css{
+font-size:30px;
+font-weight:bold;
+border-bottom:white 0.5px solid;
+}
+@keyframes startblur{
+	from{opacity:0}
+	to{opacity:1}
+	from{transform:scale(0.99,0.99)}
+	to{transform:scale(1,1)}
+}
+@keyframes scratchdiv{
+	0%{transform:scale(0,0)}
+	10%{transform:scale(0,0)}
+	20%{transform:scale(0,0)}
+	30%{transform:scale(0,0)}
+	40%{transform:scale(0,0)}
+	50%{transform:scale(0,0)}
+	100%{transform:scale(1,1)}
+}

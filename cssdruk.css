@@ -1,0 +1,70 @@
+*{
+	font-family:Franklin Gothic Demi;
+	font-size:15px;
+	color:#333333;
+}
+body{
+	background-color:#eef0f5;
+}
+.scratch{
+	background:#6b93c4;
+	width:430px;
+	height:3px;
+	animation-name:scratchdiv;
+	animation-duration:1s;
+	position:relative;
+	margin:0px auto;
+	margin-bottom:5px;
+}
+.caly{
+	text-align:center;
+	margin:0px auto 0px auto;
+	animation-name: startblur;
+	animation-duration:0.5s;
+}
+.lacz{
+	text-align:center;
+	height:100px;
+	margin-bottom:60px;	
+}
+#wychowawcadruk{
+	font-size:24px;
+	text-align:left;
+	text-indent:46%;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+	margin-top:0px;
+}
+th, td {
+    padding: 4px;
+	letter-spacing:1px;
+}
+tr:nth-child(even){
+	background-color: #ffffff;
+}
+
+th {
+    background-color: #506f96;
+    color: white;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.dodaj {
+	transition:all 0.4s ease 0s;
+	height:30px;
+	width:150px;
+	background-color:#506f96;
+	margin-top:10px;
+    cursor: pointer;
+	color:white;
+	border-radius:5px;
+	padding-top:10px;
+	letter-spacing:2px;
+	animation-name:comein;
+	animation-duration:0.5s;
+	display:inline-block;
+}
